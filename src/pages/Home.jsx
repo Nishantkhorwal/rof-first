@@ -211,7 +211,7 @@ function Home() {
         <div className='flex flex-col lg:flex-row'>
           <div className=' w-full lg:w-[30%] mb-4 lg:mb-0'>
             <h1 className='text-[#5C4033] text-4xl font-bold mb-4'>Welcome</h1>
-            <p className='mb-3 text-[#212528]'>Welcome to ROF, your trusted partner in real estate excellence. We are a name synonymous with innovation, integrity, and unmatched commitment to delivering quality projects.Our path in the real estate industry has been shaped by an unwavering commitment to excellence and a determination to surpass the expectations of our valued customers.</p>
+            <p className='mb-3 text-[#212528]'>Welcome to HomeCrew, your trusted partner in real estate excellence. We are a name synonymous with innovation, integrity, and unmatched commitment to delivering quality projects.Our path in the real estate industry has been shaped by an unwavering commitment to excellence and a determination to surpass the expectations of our valued customers.</p>
             <div className='mb-4'>
             <ul>
               <li className='flex flex-row items-center'><GoDotFill className='text-blue-600 me-3'/><h1 className='text-black'>International Reputation</h1></li>

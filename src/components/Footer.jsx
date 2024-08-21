@@ -10,17 +10,17 @@ function Footer() {
       <div className='w-full bg-[#5C4033] px-8 lg:px-28 py-16 '>
         <div className='flex flex-col lg:flex-row'>
           <div className=' w-full lg:w-[30%] mb-6 lg:mb-0'>
-          <div className='flex flex-row justify-start items-center mb-5'>
-            <img src='logo.png' className='w-20 me-3'></img>
-            <h1 className='text-gray-100 text-2xl font-bold '>ROF Group</h1>
+          <div className='flex flex-col justify-start items-start mb-5'>
+            <h1 className='text-gray-100 text-5xl font-semibold font-signika'>HomeCrew</h1>
+            <h1 className='text-gray-100  '>Facility Services</h1>
 
 
           </div>
-          <p className='text-white  mb-6 text-lg ms-5 '>
+          <p className='text-white  mb-6 text-lg ms-2 '>
           Building No. 80,1st Floor,<br/> Sector-44, Gurugram,122003
           </p>
-          <p className='text-gray-100 mb-6 ms-5'>+91 124 4399 399</p>
-          <p className='text-gray-100 mb-6  ms-5'>rof@gmail.com</p>
+          <p className='text-gray-100 mb-6 ms-2'>+91 124 4399 399</p>
+          <p className='text-gray-100 mb-6  ms-2'>HomeCrew@gmail.com</p>
           <hr className='border-t-2 hidden lg:block border-white w-72'></hr>
           </div>
           <div className='w-full lg:w-[20%] me-8 mb-6 lg:mb-0'>
