@@ -106,8 +106,8 @@ function Home() {
   };
   // Array of slide images
   const slides = [
-    'bgImage1.jpg',
-    'bgImage2.jpg',
+    'Machine1.jpg',
+    'Machine2.jpg',
   ];
 
   // Array of quotes
@@ -272,7 +272,7 @@ function Home() {
         </div>
         <div className='rounded-lg w-full lg:w-[25%] border lg:relative lg:-top-40  bg-white mb-6 lg:mb-0'>
           <div className='bg-[#5C4033] h-4 rounded-t-lg mb-6'></div>
-          <h1 className='text-blue-950 font-bold text-lg text-center mb-4'>Fun Facts About School</h1>
+          <h1 className='text-blue-950 font-bold text-lg text-center mb-4'>Fun Facts About Company</h1>
           <div className='flex justify-center'><hr className='border-t-4 border-t-[#966919]  w-10'></hr></div>
           <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit={()=> setCounterOn(false)}>
            <div className='py-10'> 
