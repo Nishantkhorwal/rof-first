@@ -174,7 +174,7 @@ function Home() {
           </div>
         ))}
       </div>
-      <div className='bg-[#966919] px-16'>
+      <div className='bg-[#5C4033] px-16'>
         <div className='flex flex-wrap flex-col md:flex-row  py-10 px-5 md:px-32 lg:px-0 '>
                <div className='flex flex-col px-3   w-full lg:w-[13%] py-6 justify-around items-center border-[#B5651D] border-4 rounded-md bg-purple-950 bg-opacity-20 cursor-pointer hover:bg-opacity-50 mb-4 lg:mb-0 mx-3'>
                   <IoPeopleSharp className='text-orange-500 mb-2 text-5xl '/>
@@ -247,7 +247,7 @@ function Home() {
       </div>
       <div>
     
-      <div className='bg-[#966919] py-20 px-16 z-30'>
+      <div className='bg-[#5C4033] py-20 px-16 z-30'>
         <h3 className='text-sm text-gray-300 ms-3'>Upcoming Company Blogs</h3>
         <h1 className='text-white text-xl lg:text-5xl font-bold'>Discover Our Top Company<br/> Blogs In A Year.</h1>
 
@@ -260,8 +260,8 @@ function Home() {
 
             </div>
             <div className='w-[75%]'>
-              <div className='flex flex-row mb-4 items-center text-[#966919]'><IoMdArrowDropright/><p className='mx-1'>Date</p><IoMdArrowDropright/><p>{e.date}</p></div>
-              <h1 className='font-bold text-[#966919] text-3xl mb-3'>{e.title}</h1>
+              <div className='flex flex-row mb-4 items-center text-[#5C4033]'><IoMdArrowDropright/><p className='mx-1'>Date</p><IoMdArrowDropright/><p>{e.date}</p></div>
+              <h1 className='font-bold text-[#5C4033] text-3xl mb-3'>{e.title}</h1>
               <p className='text-gray-500 text-sm mb-2'>{e.para}</p>
               <hr className='border-t-2  border-t-[#B5651D] w-10'></hr>
             </div>
@@ -271,21 +271,21 @@ function Home() {
 
         </div>
         <div className='rounded-lg w-full lg:w-[25%] border lg:relative lg:-top-40  bg-white mb-6 lg:mb-0'>
-          <div className='bg-[#966919] h-4 rounded-t-lg mb-6'></div>
+          <div className='bg-[#5C4033] h-4 rounded-t-lg mb-6'></div>
           <h1 className='text-blue-950 font-bold text-lg text-center mb-4'>Fun Facts About School</h1>
           <div className='flex justify-center'><hr className='border-t-4 border-t-[#966919]  w-10'></hr></div>
           <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit={()=> setCounterOn(false)}>
            <div className='py-10'> 
           <div className='flex flex-col justify-center items-center mb-6'>
             <h1 className='text-3xl font-bold text-blue-950'>
-            <PiStudentFill className='text-[#966919] text-5xl'/>
+            <PiStudentFill className='text-[#5C4033] text-5xl'/>
             { counteron && <CountUp start={0} end={300} duration={2} delay={0}/> }+</h1>
           
             <h3 className='text-lg font-semibold text-gray-400'>Projects Complete</h3>
           </div>
           <div className='flex flex-col justify-center items-center  mb-6'>
             <h1 className='text-3xl font-bold text-blue-950'>
-            <GiTeacher className='text-[#966919] text-5xl'/>
+            <GiTeacher className='text-[#5C4033] text-5xl'/>
             { counteron && <CountUp start={0} end={100} duration={2} delay={0}/> }+
             </h1>
     
@@ -293,7 +293,7 @@ function Home() {
           </div>
           <div className='flex flex-col justify-center items-center  mb-6'>
             <h1 className='text-3xl font-bold text-blue-950 '>
-            <IoIosStar className='text-[#966919] text-5xl'/>
+            <IoIosStar className='text-[#5C4033] text-5xl'/>
             { counteron && <CountUp start={0} end={20} duration={2} delay={0}/> }+
             </h1>
           
@@ -301,7 +301,7 @@ function Home() {
           </div>
           <div className='flex flex-col justify-center items-center  mb-6'>
             <h1 className='text-3xl font-bold text-blue-950'>
-            <MdWorkspacePremium className='text-[#966919] text-5xl'/>
+            <MdWorkspacePremium className='text-[#5C4033] text-5xl'/>
             { counteron && <CountUp start={0} end={100} duration={2} delay={0}/> }+
             </h1>
            
@@ -439,7 +439,7 @@ function Home() {
 
           
         </div> */}
-      <div className='md:px-20 px-4 py-20 bg-[#966919] mt-2 pb-60'>
+      <div className='md:px-20 px-4 py-20 bg-[#5C4033] mt-2 pb-60'>
         <div className='flex flex-row  '>
         <div className='w-full'>
         <h3 className='text-sm font-bold text-orange-500 mb-2'>Always With You</h3>

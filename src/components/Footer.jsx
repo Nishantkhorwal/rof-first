@@ -7,7 +7,7 @@ function Footer() {
   return (
     <>
       
-      <div className='w-full bg-[#966919] px-8 lg:px-28 py-16 '>
+      <div className='w-full bg-[#5C4033] px-8 lg:px-28 py-16 '>
         <div className='flex flex-col lg:flex-row'>
           <div className=' w-full lg:w-[30%] mb-6 lg:mb-0'>
           <div className='flex flex-row justify-start items-center mb-5'>

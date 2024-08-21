@@ -35,7 +35,7 @@ function Navbar() {
   }, []);
 
   return (
-    <div className={`navbar w-full hidden lg:flex justify-end px-6 md:px-28 bg-[#966919] ${isFixed ? 'fixed top-0 left-0 right-0 z-50 justify-center navbar-expanded' : 'navbar-collapsed'}`}>
+    <div className={`navbar w-full hidden lg:flex justify-end px-6 md:px-28 bg-[#5C4033] ${isFixed ? 'fixed top-0 left-0 right-0 z-50 justify-center navbar-expanded' : 'navbar-collapsed'}`}>
       <ul className='flex flex-row justify-end items-end w-full  text-white lora'>
         <a href='/'><li className='text-lg font-semibold hover:bg-yellow-500 py-3 px-6 cursor-pointer'>Home</li></a>
         <li className='relative'
